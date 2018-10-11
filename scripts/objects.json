@@ -1,0 +1,44 @@
+[
+	{
+		"title": "Home",
+		"slug": "home",
+		"content": "This is the home page content.",
+		"type_slug": "pages",
+		"locale": "en"
+	},
+	{
+		"title": "Zuhause",
+		"slug": "home",
+		"content": "Dies ist der Inhalt der Startseite.",
+		"type_slug": "pages",
+		"locale": "de"
+	},
+	{
+		"title": "About",
+		"slug": "about",
+		"content": "This is the about page content.",
+		"type_slug": "pages",
+		"locale": "en"
+	},
+	{
+		"title": "Über",
+		"slug": "about",
+		"content": "Dies ist der ungefähre Seiteninhalt.",
+		"type_slug": "pages",
+		"locale": "de"
+	},
+	{
+		"title": "Contact",
+		"slug": "contact",
+		"content": "This is the contact page content.",
+		"type_slug": "pages",
+		"locale": "en"
+	},
+	{
+		"title": "Kontakt",
+		"slug": "contact",
+		"content": "Dies ist der Inhalt der Kontaktseite.",
+		"type_slug": "pages",
+		"locale": "de"
+	}
+]
