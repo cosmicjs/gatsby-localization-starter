@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 const NotFoundPage = () => (
-  <Layout>
+  <Layout locale={'en'}>
     <Helmet title="Page not found" />
     <h1>404 Page Not Found</h1>
     <div>
