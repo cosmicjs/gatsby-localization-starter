@@ -4,5 +4,9 @@
 	"singular": "Page",
 	"localization": true,
 	"locales": ["en","de"],
-	"priority_locale": "en"
+	"priority_locale": "en",
+	"options": {
+		"slug_field": true
+		"content_editor": true
+	}
 }
