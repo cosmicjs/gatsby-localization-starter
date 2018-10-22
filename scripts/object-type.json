@@ -6,7 +6,7 @@
 	"locales": ["en","de"],
 	"priority_locale": "en",
 	"options": {
-		"slug_field": true
+		"slug_field": true,
 		"content_editor": true
 	}
 }
