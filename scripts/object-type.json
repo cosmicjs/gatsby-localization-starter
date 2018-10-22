@@ -1,7 +1,7 @@
 {
 	"title": "Pages",
 	"slug": "pages",
-	"singular": "page",
+	"singular": "Page",
 	"localization": true,
 	"locales": ["en","de"],
 	"priority_locale": "en"
