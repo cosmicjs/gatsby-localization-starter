@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Nav from './nav'
 import Footer from './footer'
+import Link from 'gatsby-link'
 import './index.css'
 
 export default ({ children, locale }) => (
@@ -15,6 +16,10 @@ export default ({ children, locale }) => (
           siteMetadata {
             title
             nav {
+              slug
+              name
+            }
+            languages {
               slug
               name
             }
@@ -37,6 +42,13 @@ export default ({ children, locale }) => (
           <div className="main">
             {children}
             <Nav nav={siteNav} locale={locale} />
+            {
+              data.site.siteMetadata.languages.map(lang => {
+                return (
+                  <span key={lang.slug}><Link to={`/${lang.slug}`}>{lang.name}</Link> | </span>
+                )
+              })
+            }
           </div>
           <Footer />
         </div>

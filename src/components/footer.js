@@ -5,7 +5,7 @@ const Footer = () => (
     &copy;
     {new Date().getFullYear()} <a href="https://cosmicjs.com">Cosmic JS</a>{' '}
     Gatsby Starter.{' '}
-    <a href="https://github.com/cosmicjs/gatsby-starter" target="_blank">
+    <a href="https://github.com/cosmicjs/gatsby-starter-localization" target="_blank">
       View the code
     </a>
     .

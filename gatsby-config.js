@@ -1,10 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Cosmic JS Gatsby Starter',
-    nav: [{ slug: '/', name: 'Home' },
-      { slug: '/about', name: 'About' },
-      { slug: '/contact', name: 'Contact' },
-      { slug: '/not-found', name: 'Not Found' },
+    title: 'Cosmic JS Gatsby Starter Localization',
+    nav: [
+      { slug: '', name: 'Home' },
+      { slug: 'about', name: 'About' },
+      { slug: 'contact', name: 'Contact' },
+      { slug: 'not-found', name: 'Not Found' },
+    ],
+    languages: [
+      { slug: '', name: 'English' },
+      { slug: 'de', name: 'German' },
     ],
   },
   plugins: [
