@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-cosmicjs`,
       options: {
-        bucketSlug: process.env.COSMIC_BUCKET || `node-starter-localization`,
+        bucketSlug: process.env.COSMIC_BUCKET || `gatsby-localization`,
         objectTypes: [`pages`],
         // If you have enabled read_key to fetch data (optional).
         apiAccess: {
