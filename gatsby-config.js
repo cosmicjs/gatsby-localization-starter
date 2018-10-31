@@ -8,8 +8,8 @@ module.exports = {
       { slug: 'not-found', name: 'Not Found' },
     ],
     languages: [
-      { slug: '', name: 'English' },
-      { slug: 'de', name: 'German' },
+      { slug: '', localized_name: { en: 'English', es: 'Inglés', de: 'Englisch'} },
+      { slug: 'de', localized_name: { en: 'German', es: 'Alemán', de: 'Deutsche'} },
     ],
   },
   plugins: [

@@ -21,7 +21,10 @@ export default ({ children, locale }) => (
             }
             languages {
               slug
-              name
+              localized_name {
+                en
+                de
+              }
             }
           }
         }
@@ -45,7 +48,7 @@ export default ({ children, locale }) => (
             {
               data.site.siteMetadata.languages.map(lang => {
                 return (
-                  <span key={lang.slug}><Link to={`/${lang.slug}`}>{lang.name}</Link> | </span>
+                  <span key={lang.slug}><Link to={`/${lang.slug}`}>{lang.localized_name[locale]}</Link> | </span>
                 )
               })
             }
