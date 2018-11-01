@@ -1,4 +1,4 @@
-# Gatsby Starter Localization
+# Gatsby Localization Starter
 Gatsby starter app with localization powered by [Cosmic JS](https://cosmicjs.com) 🚀
 
 ## Installation
