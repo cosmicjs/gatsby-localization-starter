@@ -4,8 +4,8 @@ Gatsby starter app with localization powered by [Cosmic JS](https://cosmicjs.com
 ## Installation
 Option 1: Download code. Connects to demo Bucket.
 ```bash
-git clone https://github.com/cosmicjs/gatsby-starter-localization
-cd gatsby-starter-localization
+git clone https://github.com/cosmicjs/gatsby-localization-starter
+cd gatsby-localization-starter
 npm install
 npm run develop
 ```
@@ -18,7 +18,7 @@ npm i -g cosmic-cli
 cosmic login
 
 # Installs example content to a new or existing Bucket and downloads the app locally
-cosmic init gatsby-starter-localization
-cd gatsby-starter-localization
+cosmic init gatsby-localization-starter
+cd gatsby-localization-starter
 cosmic start
 ```
