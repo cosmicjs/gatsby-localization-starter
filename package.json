@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "cosmicjs": "^3.2.8",
-    "gatsby": "^2.0.17",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-source-cosmicjs": "0.0.6",
     "lodash": "^4.17.11",
